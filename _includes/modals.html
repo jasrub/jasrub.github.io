@@ -15,11 +15,7 @@
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            
 
-                                 <div class="row">
-
-                                    <div class="col-md-8">
                                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                                             <!-- Indicators -->
                                             <ol class="carousel-indicators">
@@ -31,7 +27,7 @@
                                             <!-- Wrapper for slides -->
                                             <div class="carousel-inner">
                                                 <div class="item active">
-                                                    <img class="img-responsive" src="img/portfolio/{{ post.img-act }}" alt="">
+                                                    <img class="img-responsive" src="img/portfolio/{{ post.img-ac }}" alt="">
                                                 </div>
                                                 {% for photo in post.img %}
                                                 <div class="item">
@@ -48,8 +44,6 @@
                                                 <span class="glyphicon glyphicon-chevron-right"></span>
                                             </a>
                                         </div>
-                                    </div>
-                                </div>
                             
 
                             <p>{{ post.description }}</p>
