@@ -14,24 +14,26 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
 
                                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                                             <!-- Indicators -->
                                             <ol class="carousel-indicators">
                                                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                                {% assign picIndex = 1 %}
+                                                {% for photo in post.img %}
+                                                <li data-target="#carousel-example-generic" data-slide-to="{{picIndex}}"></li>
+                                                {% assign picIndex = picIndex | plus:1 %}
+                                                {% endfor %}
                                             </ol>
 
                                             <!-- Wrapper for slides -->
                                             <div class="carousel-inner">
                                                 <div class="item active">
-                                                    <img class="img-responsive" src="img/portfolio/{{ post.img-ac }}" alt="">
+                                                    <img class="img-responsive img-centered" src="img/portfolio/{{ post.img-ac }}" alt="{{ post.alt }}">
                                                 </div>
                                                 {% for photo in post.img %}
                                                 <div class="item">
-                                                    <img class="img-responsive" src="img/portfolio/{{ photo }}" alt="">
+                                                    <img class="img-responsive img-centered" src="img/portfolio/{{ photo }}" alt="{{ post.alt }}">
                                                 </div>
                                                 {% endfor %}
                                             </div>
