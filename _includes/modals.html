@@ -30,9 +30,12 @@
 
                                             <!-- Wrapper for slides -->
                                             <div class="carousel-inner">
-                                                {% for photo in post.img %}
                                                 <div class="item active">
-                                                    <img class="img-responsive" src="img/portfolio/{{ photo }}" alt="">
+                                                    <img class="img-responsive" src="{{ post.img-act }}" alt="">
+                                                </div>
+                                                {% for photo in post.img %}
+                                                <div class="item">
+                                                    <img class="img-responsive" src="{{ photo }}" alt="">
                                                 </div>
                                                 {% endfor %}
                                             </div>
