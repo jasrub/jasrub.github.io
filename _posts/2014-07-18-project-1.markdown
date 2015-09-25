@@ -4,9 +4,7 @@ subtitle: Website Design
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: dreams.png
-img: escape.png
-img: golden.png
+img: [dreams.png, escape.png, golden.png]
 thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: April 2014
@@ -15,16 +13,3 @@ category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
-
-<!-- Wrapper for slides -->
-<div class="carousel-inner">
-    <div class="item active">
-        <img class="img-responsive" src="http://placehold.it/750x500" alt="">
-    </div>
-    <div class="item">
-        <img class="img-responsive" src="http://placehold.it/750x500" alt="">
-    </div>
-    <div class="item">
-        <img class="img-responsive" src="http://placehold.it/750x500" alt="">
-    </div>
-</div>
