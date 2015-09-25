@@ -1,5 +1,2 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
-.carousel-control.left, .carousel-control.right {
-    background-image: none
-}
