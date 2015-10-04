@@ -4,7 +4,7 @@ baseurl:
 # Site settings
 title: Jasmin Rubinovitz
 email: jasrub@gmail.com
-description: "Jasmin Rubinovitz - A Researcher Computer Sceintist Artist and Designer"
+description: "Jasmin Rubinovitz - Computer Science Researcher Artist and Designer"
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 96CED2
@@ -19,6 +19,8 @@ social:
     url: https://www.facebook.com/jasmin.rubinovitz
   - title: github
     url: https://github.com/jasrub
+  - title: envelope
+    url: mailto:jasrub@media.mit.edu
 
 # Postal address (add as many lines as necessary)
 # address:
