@@ -6,9 +6,9 @@ modal-id: 3
 link-name: traditional_tech
 date: 2014-07-18
 video: false
-img-ac: /teapots/1-603.jpg
-img: [/teapots/2-603.jpg, /teapots/3-234-25.jpg, /teapots/4-553-26.jpg, /teapots/5-298-08.jpg]
-thumbnail: /teapots/1-603.jpg
+img-ac: /teapots/1-603.JPG
+img: [/teapots/2-603.JPG, /teapots/3-234-25.jpg, /teapots/4-553-26.jpg, /teapots/5-298-08.jpg]
+thumbnail: /teapots/1-603.JPG
 <!-- alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

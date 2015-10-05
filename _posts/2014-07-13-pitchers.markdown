@@ -1,5 +1,5 @@
 ---
-title: Pitchres
+title: Pitchers
 subtitle: 
 layout: default
 modal-id: 6
