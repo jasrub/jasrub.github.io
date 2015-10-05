@@ -41,12 +41,14 @@
                             </div>
 
                             <!-- Controls -->
-                            <a class="left carousel-control" href="#images-slide-show" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#images-slide-show" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
+                            {% if post.img %}
+                                 <a class="left carousel-control" href="#images-slide-show" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#images-slide-show" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            {% endif %}
                         </div>
                         {%endif%}
 
