@@ -27,6 +27,10 @@ p.large {
     font-size: 16px;
 }
 
+p.small {
+    font-size: 12px;
+}
+
 a,
 a:hover,
 a:focus,
@@ -881,4 +885,26 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+#ajax-content{width:100%;}
+
+.portfolio-grid{
+  width:1170px;
+  position:relative;
+  margin: 30px auto;
+  overflow:hidden;
+}
+
+#portfolio-sidebar{
+  width: 780px !important;
+  padding-right: 390px;
+
+}
+
+li.grid-item{
+  width:360px;
+  position:relative;
+  float:left;
+  padding:15px;
 }
