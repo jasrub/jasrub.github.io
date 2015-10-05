@@ -17,8 +17,8 @@ social:
     url: https://il.linkedin.com/pub/jasmin-rubinovitz/a5/a91/9b1
   - title: facebook
     url: https://www.facebook.com/jasmin.rubinovitz
-  - title: github
-    url: https://github.com/jasrub
+  # - title: github
+  #   url: https://github.com/jasrub
   - title: envelope
     url: mailto:jasrub@media.mit.edu
 
