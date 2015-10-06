@@ -10,20 +10,20 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
+                <!-- <div class="col-lg-8 col-lg-offset-2"> -->
                     <div class="modal-body">
-                        <h2>{{ post.title }}</h2>
+                        <!-- <h2>{{ post.title }}</h2> -->
                         <hr class="star-primary">
                         {% if post.video %}
                             <div>{{post.video-link}}</div>
                         {%else%}
-                        <div id="images-slide-show" class="carousel slide" data-ride="carousel">
+                        <div id="images-slide-show-{{ post.modal-id }}" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
                             <ol class="carousel-indicators">
-                                <li data-target="#images-slide-show" data-slide-to="0" class="active"></li>
+                                <li data-target="#images-slide-show-{{ post.modal-id }}" data-slide-to="0" class="active"></li>
                                 {% assign picIndex = 1 %}
                                 {% for photo in post.img %}
-                                <li data-target="#images-slide-show" data-slide-to="{{ picIndex }}"></li>
+                                <li data-target="#images-slide-show-{{ post.modal-id }}" data-slide-to="{{ picIndex }}"></li>
                                 {% assign picIndex = picIndex | plus:1 %}
                                 {% endfor %}
                             </ol>
@@ -42,20 +42,23 @@
 
                             <!-- Controls -->
                             {% if post.img %}
-                                 <a class="left carousel-control" href="#images-slide-show" data-slide="prev">
+                                 <a class="left carousel-control" href="#images-slide-show-{{ post.modal-id }}" data-slide="prev">
                                     <span class="glyphicon glyphicon-chevron-left"></span>
                                 </a>
-                                <a class="right carousel-control" href="#images-slide-show" data-slide="next">
+                                <a class="right carousel-control" href="#images-slide-show-{{ post.modal-id }}" data-slide="next">
                                     <span class="glyphicon glyphicon-chevron-right"></span>
                                 </a>
                             {% endif %}
                         </div>
                         {%endif%}
-
-
-                        <h5>{{ post.subtitle }}</h5>
-                        <p>{{ post.description }}</p>
-                        <p class="small text-muted">{{ post.details }}</p>
+                        <h2>{{ post.title }}</h2>
+                        <div class="one-column">
+                            <h5>{{ post.subtitle }}</h5>
+                        </div>
+                        <div class="two-column">
+                            <p>{{ post.description }}</p>
+                            <p class="small text-muted">{{ post.details }}</p>
+                        </div>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
