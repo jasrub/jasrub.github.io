@@ -6,8 +6,7 @@
                     <h2 class="section-heading">Projects</h2>
                 </div>
             </div>
-            <div class="row grid js-masonry"
-                 data-masonry-options='{ "columnWidth": ".portfolio-item", "itemSelector": ".portfolio-item" }'>
+            <div class="row grid">
             {% for post in site.posts %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#{{ post.link-name }}" class="portfolio-link" data-toggle="modal">

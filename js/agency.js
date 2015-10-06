@@ -35,3 +35,17 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+// external js: masonry.pkgd.js, imagesloaded.pkgd.js
+
+$(document).ready( function() {
+  // init Masonry after all images have loaded
+  var $grid = $('.grid').imagesLoaded( function() {
+    $grid.masonry({
+      itemSelector: '.portfolio-item',
+      percentPosition: true,
+      columnWidth: '.col-md-4'
+    }); 
+  });
+
+});
