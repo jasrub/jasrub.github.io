@@ -28,7 +28,7 @@
                         <p class="small text-muted">{{ post.details }}</p>
                     </div>
 
-                    {% if not (post.video) %}
+                    {% if post.video == false %}
                     <div id="images-slide-show-{{ post.modal-id }}" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
@@ -66,10 +66,10 @@
                 </div>
             </div>
             <div style="text-align:center">
-               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-           </div>
-       </div>
-   </div>
+             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+         </div>
+     </div>
+ </div>
 </div>
 </div>
 {% endfor %}
