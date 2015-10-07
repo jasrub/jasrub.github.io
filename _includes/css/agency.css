@@ -254,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
     .two-column {
         width:60%;
         position:relative;
-        float:left;
+        float:right;
     }
     .navbar-default {
         padding: 25px 0;
@@ -300,7 +300,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 38%;
+    padding-top: 40%;
     padding-bottom: 50px;
 }
 
@@ -887,251 +887,16 @@ body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
 
-/*
-**************************
-PORTFOLIO GRID
-**************************
-*/
-
-.prev-next{
-  width:100%;
-  max-width:1170px;
-  margin:0 auto;
-  padding-top:100px;
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
 }
-
-.prev-next a{
-  color:black;
-  font-weight:500;
-  padding-bottom: 15px;
-}
-
-.prev-next a:hover{
-  border-bottom:1px solid black;
-}
-
-.prev-button{
-  width:50%;
-  position:relative;
-  float:left;
-  text-align:left;
-}
-
-.next-button{
-  width:50%;
-  position:relative;
-  float:left;
-  text-align:right;
-}
-
-
-#ajax-content{width:100%;}
-
-.portfolio-grid{
-  width:1170px;
-  position:relative;
-  margin: 30px auto;
-  overflow:hidden;
-}
-
-#portfolio-sidebar{
-  width: 780px !important;
-  padding-right: 390px;
-
-}
-
-li.grid-item{
-  width:360px;
-  position:relative;
-  float:left;
-  padding:15px;
-}
-
-.grid-hover{
-  position: absolute;
-  width:360px;
-  height: 100%;
-  top:0;
-  background: white;
-  z-index: 2;
-  opacity: 0;
-  -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in; 
-}
-
-.grid-hover:hover{
-  opacity: 0.9;
-}
-
-.grid-hover h1{
-  font-size:23px;
-  bottom:80px;
-  left:40px;
-  position:absolute;
-  text-transform:uppercase;
-  color:#000000;
-  letter-spacing:1px;
-  font-weight:900;
-  line-height:50px;
-}
-
-.grid-hover p{
-  font-size:13px;
-  bottom:40px;
-  left:40px;
-  position:absolute;
-  color:#686868;
-  letter-spacing:1px;
-  font-weight:400;
-  line-height:50px;
-}
-
-li.grid-item img{
-  width:360px;
-}
-
-@media all and (max-width: 1330px) and (min-width: 1180px) {
- /*
-  **************************
-  Portfolio Grid
-  **************************
-  */
-
-  #portfolio-sidebar{
-
-    width: 710px !important;
-    padding-right: 320px;
-  }
-
-  .portfolio-grid{
-
-    width:1030px;
-
-  }
-
-  .grid-hover, li.grid-item, li.grid-item img{
-    width:312px;
-  }
-
-
-}
-
-
-@media all and (max-width: 1179px) and (min-width: 1024px) {
-  /*
-  **************************
-  Portfolio Grid
-  **************************
-  */
-
-  #portfolio-sidebar{
-
-    width: 580px !important;
-    padding-right: 250px;
-  }
-
-  .portfolio-grid{
-
-    width:830px;
-
-  }
-
-  .grid-hover, li.grid-item, li.grid-item img{
-    width:246px;
-  }
-
-}
-
-
-@media all and (max-width: 1023px) and (min-width: 769px) {
-
-  /*
-  **************************
-  Portfolio Grid
-  **************************
-  */
-
-  #portfolio-sidebar{
-
-    width:630px !important;
-    padding-right: 0;
-  }
-
-  .portfolio-grid{
-    width:630px;
-  }
-
-  .grid-hover, li.grid-item, li.grid-item img{
-    width:282px;
-  }
-
-}
-
-
-
-@media all and (max-width: 768px) and (min-width: 481px) {
-
-  /*
-  **************************
-  Portfolio Grid
-  **************************
-  */
-
-  #portfolio-sidebar{
-
-    width:430px !important;
-    padding-right: 0;
-  }
-
-  .portfolio-grid{
-    width:430px;
-  }
-
-  .grid-hover, li.grid-item, li.grid-item img{
-    width:400px;
-  }
-
-}
-
-
-@media all and (max-width: 480px) and (min-width: 320px) {
-
-  /*
-  **************************
-  Portfolio Grid
-  **************************
-  */
-
-  #portfolio-sidebar{
-
-    width:310px !important;
-    padding-right: 0;
-  }
-
-  .portfolio-grid{
-    width:310px;
-  }
-
-  .grid-hover, li.grid-item, li.grid-item img{
-    width:280px;
-  }
-
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
