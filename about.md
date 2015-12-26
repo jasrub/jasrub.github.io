@@ -4,17 +4,22 @@ title: About
 permalink: /about/
 ---
 
-<img class="col one right" src="/img/prof_pic.jpg">
+<img class="col one right" src="/img/prof_pic.jpg" style="padding:25px">
 
-
+<div>
 Hello, my name is Jasmin Rubinovitz.  
   
-I'm currently a Research Assistant and a Graduate Student in the Viral Communications group at MIT Media Lab.  
-Perior to that I was a software engineer intern at Google, and a B.fa student at the ceramic design department of Bezalel Academy For Art and Design.  
+I'm currently a Research Assistant and a Graduate Student in the Viral Communications group at MIT Media Lab. 
+<br/> 
+Perior to that I was a software engineer intern at Google, and a B.fa student at the ceramic design department of Bezalel Academy For Art and Design.
+<br/>  
 I hold a B.sc of Computer Science from the Hebrew University of Jerusalem.  
-I'm interested in computer human interactions and the relation between, arts, crafts and design with developed technology.  
+<br/>
+I'm interested in computer human interactions and the relation between, arts, crafts and design with developed technology. 
+<br/> 
 
 <a target="_blank" href="/JasminRubinovitzCv.pdf" >My CV</a>
+</div>
 
 <br/>
 <hr/>
