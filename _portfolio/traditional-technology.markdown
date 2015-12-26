@@ -6,8 +6,8 @@ img: /img/teapots/1-603.JPG
 
 ---
 <div class="img_row">
-	<a href="{{ site.baseurl }}/img/teapots/1-603.jpg"><img class="col one" src="{{ site.baseurl }}/img/teapots/1-603.jpg" alt=""></a>
-	<a href="{{ site.baseurl }}/img/teapots/2-603.jpg"><img class="col one" src="{{ site.baseurl }}/img/teapots/2-603.jpg" alt=""></a>
+	<a href="{{ site.baseurl }}/img/teapots/1-603.JPG"><img class="col one" src="{{ site.baseurl }}/img/teapots/1-603.JPG" alt=""></a>
+	<a href="{{ site.baseurl }}/img/teapots/2-603.JPG"><img class="col one" src="{{ site.baseurl }}/img/teapots/2-603.JPG" alt=""></a>
 	<a href="{{ site.baseurl }}/img/teapots/4-553-26.jpg"><img class="col one" src="{{ site.baseurl }}/img/teapots/4-553-26.jpg" alt=""></a>
 </div> 
 
