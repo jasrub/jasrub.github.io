@@ -1,0 +1,10 @@
+<div id="menu">
+        <div class="pure-menu">
+
+            <ul class="pure-menu-list">
+                {% for project in site.portfolio %}
+                <li class="pure-menu-item"><a href="{{ site.baseurl }}{{ project.url }}" class="pure-menu-link">{{project.title}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+</div>
