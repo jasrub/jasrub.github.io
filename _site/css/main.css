@@ -18,7 +18,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5em;
   font-weight: 100;
@@ -163,6 +164,7 @@ pre {
 
 .site-title {
   font-size: 20px;
+  font-weight: 900;
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0; }
@@ -171,6 +173,7 @@ pre {
     color: #18A5B5; }
 
 .header-title {
+  font-weight: 800;
   font-size: 2em;
   line-height: 56px;
   letter-spacing: -1px;
@@ -521,16 +524,12 @@ Remove all background/borders, since we are applying them to #menu.
 /*
 Add that light border to separate items into groups.
 */
-#menu .pure-menu ul,
-#menu .pure-menu .menu-item-divided {
-  border-top: 1px solid #333; }
-
 /*
 Change color of the anchor links on hover/focus.
 */
 #menu .pure-menu li a:hover,
 #menu .pure-menu li a:focus {
-  background: rgba(24, 165, 181, 0.3); }
+  color: #18a5b5; }
 
 /*
 This styles the selected menu item `<li>`.
