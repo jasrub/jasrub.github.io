@@ -16,6 +16,7 @@ z-index: 50;
 
 .site-title {
 font-size: 20px;
+font-weight: 900;
 line-height: $nav-height;
 letter-spacing: -1px;
 margin-bottom: 0;
@@ -423,7 +424,7 @@ appears on the left side of the page.
         */
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
-            background: rgba($theme-color,0.3);
+            color: rgba($theme-color);
         }
 
     /*
