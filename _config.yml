@@ -10,7 +10,7 @@ url: jasrub.github.io
 # Build settings
 markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 
 # Pagination
 # paginate: 15
