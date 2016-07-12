@@ -24,5 +24,5 @@ During June 2016 I traveled to Hong Kong to participate in MIT Kickstart.
   
 I worked on a team together with [Anthony Occintendale](Aoccidentale.com), [Elwin Ha](elwinha.com), [Jonathan Ching](https://www.linkedin.com/in/jonathanching) and [Nathan Monroe](nathanmonroe.com)
 
-We've designed InterFace, a smart lanyard to connect people in the real world. We built a prototype and a business strategy and pitch in just 3 days wand were the wining team on the MIT KIckstart 2016.
+We've designed InterFace, a smart lanyard to connect people in the real world. We built a prototype, a business strategy and a pitch in 3 days and were the wining team on the MIT KIckstart 2016.
 
