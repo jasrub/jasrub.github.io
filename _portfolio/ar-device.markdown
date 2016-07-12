@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DIY AR Device
-description: Accessible Augmented Reality
+description: Augmented Reality For Everyone
 img: /img/ar_device/img4.jpg
 ---
 
