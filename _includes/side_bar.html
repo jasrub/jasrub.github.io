@@ -3,7 +3,12 @@
 
             <ul class="pure-menu-list">
                 {% for project in site.portfolio %}
-                <li class="pure-menu-item"><a href="{{ site.baseurl }}{{ project.url }}" class="pure-menu-link">{{project.title}}</a></li>
+                <li class="pure-menu-item"><a href="{{ site.baseurl }}{{ project.url }}" class="pure-menu-link">
+                {% if project.list-name %}
+                	{{project.list-name}}</a></li>
+                {% else %}
+                	{{project.title}}</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </div>

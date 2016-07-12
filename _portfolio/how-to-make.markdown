@@ -3,6 +3,7 @@ layout: post
 title: How To Make (Almost) Anything
 description: 
 img: /img/how_to/how_to_thumb.jpg
+list-name: HTMAA
 ---
 
 <div class="img_row">

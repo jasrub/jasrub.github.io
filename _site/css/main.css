@@ -154,7 +154,6 @@ pre {
 .site-header {
   border-bottom: 1px solid #ddd;
   background-color: #fff;
-  opacity: 0.75;
   position: fixed;
   left: 0px;
   top: 0px;
@@ -649,7 +648,7 @@ label {
 textarea, input, select {
   width: 100%; }
 
-li {
+.formListItem {
   padding-left: 200px; }
 
 input[type=submit] {

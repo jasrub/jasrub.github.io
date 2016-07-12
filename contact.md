@@ -4,25 +4,25 @@ title: Contact Me
 permalink: /contact/
 ---
 
-I'de love to hear from you.  
+I'd love to hear from you.  
 Please feel free to reach out and say hello.
 
+<div>
 <form method="POST"
       action="https://www.formingo.co/submit/jasrub@gmail.com">
       <ul class="formList">
-        <li>
-    <div><label for="full_name">Your Name:</label></div>
-    <input type="text" name="full_name" id="full_name">
-  </li>
-  <li>
-
-    <div><label for="__replyto">Your Email:</label></div>
-    <input type="email" name="__replyto" id="__replyto">
-</li>
-<li>
-    <div><label for="message"> Message: </label></div>
-    <div><textarea rows="10" name="message" id="message"></textarea></div>
-  </li>
+      <li class="formListItem">
+        <div><label for="full_name"> Your Name:</label></div>
+        <input type="text" name="full_name" id="full_name">
+      </li>
+      <li class="formListItem">
+        <div><label for="__replyto">Your Email:</label></div>
+        <input type="email" name="__replyto" id="__replyto">
+      </li>
+      <li class="formListItem">
+        <div><label for="message"> Message: </label></div>
+        <div><textarea rows="10" name="message" id="message"></textarea></div>
+      </li>
   </ul>
 
     <input type="hidden" name="__redirect" value="http://www.jasrub.com">
@@ -30,6 +30,7 @@ Please feel free to reach out and say hello.
     <input type="submit" value="Submit" onclick="submitContact()">
   </div>
 </form>
+</div>
 
 <span class="contacticon center">
   <a href="mailto:jasrub@media.mit.com"><i class="fa fa-envelope-square"></i></a>
