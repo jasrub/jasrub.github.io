@@ -7,7 +7,7 @@ permalink: /about/
 <img class="col one right" src="/img/prof_pic.jpg" style="padding:25px">
 
 <div>
-Hello, my name is Jasmin Rubinovitz.
+Hello, my name is Jasmin Rubinovitz. I'm <span class="changing"></span>
 <br>
 <br>
 I'm a cross disciplined researcher, designer and engineer - currently a Research Assistant and a Graduate Student in the Viral Communications group at MIT Media Lab.
@@ -33,3 +33,20 @@ I'm interested in exploring the ways we communicate with people and objects in o
 	<a href="https://il.linkedin.com/pub/jasmin-rubinovitz/a5/a91/9b1" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 	<a href="https://www.facebook.com/jasmin.rubinovitz" target="_blank"><i class="fa fa-facebook-square"></i></a>
 </span>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+	{% include js/typed.js %}
+</script>
+<script>
+  $(function(){
+      $(".changing").typed({
+        strings: ["a maker.", "a developer.", "a designer.", "an artist.", "a researcher."],
+        typeSpeed: 50,
+				backDelay: 2000,
+				showCursor: false,
+				loop: true
+      });
+  });
+</script>
