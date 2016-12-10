@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img class="col one right" src="/img/prof_pic.jpg" style="padding:25px">
+<img class="col one right" src="/img/jasmin.jpg" style="padding:25px">
 
 <div>
 Hello, my name is Jasmin Rubinovitz. I'm <span class="changing"></span>

@@ -319,7 +319,10 @@ pre {
     .poem-title {
       font-size: 16px; } }
 
-/** 
+.about-i-am {
+  font-size: 2em; }
+
+/**
  * Portfolio grid **********************************************************
 */
 .clearfix:before,
@@ -383,7 +386,7 @@ pre {
   .project {
     width: 33.3%;
     padding-bottom: 33.3%; } }
-/** 
+/**
  * Portfolio pages **********************************************************
 */
 .blankbox {
@@ -423,7 +426,7 @@ pre {
   vertical-align: middle;
   font-size: 12px; }
 
-/** 
+/**
  * Sidebar **********************************************************
 */
 /*
