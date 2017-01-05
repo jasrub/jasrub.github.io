@@ -44,6 +44,9 @@ line-height: $base-line-height;
 margin-left: 10px;
         }
     }
+@media screen and (max-width:680px) {
+      .trigger a:nth-child(n+3) {display: none;}
+  }
 @include media-query($on-palm) {
 position: fixed;
 top: 0px;
@@ -573,16 +576,21 @@ textarea, input, select {
 
 input[type=submit] {
 margin: 0 auto;
-    width:40%;
-  -moz-box-shadow: #8b9b9c 0px 0px 10px;
+    width:20%;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   background-color: #4ab3bf;
-  color: #e8e3e3;
+  border:0 none;
+  color: white;
+  font-family: $base-font-family;
+  font-weight: 400;
+  font-size: $base-font-size;
   display: inline-block;
   margin: auto;
-  padding: 18px;
+  padding: 15px;
   text-decoration: none;
   transition: all 0.5s ease;
 }

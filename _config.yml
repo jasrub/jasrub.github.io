@@ -15,10 +15,9 @@ highlighter: rouge
 # Pagination
 # paginate: 15
 # paginate_path: "/blog/page:num/"
-
+redirects: yes
 
 collections:
   portfolio:
     output: true
     permalink: /projects/:path/
-
