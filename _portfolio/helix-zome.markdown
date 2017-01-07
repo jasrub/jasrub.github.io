@@ -3,6 +3,7 @@ layout: post
 title: The Helix Zome
 description: Parametric Design
 img: /img/helix_thumb.jpg
+date: 2015-11-20
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EfQID5LcnuA" frameborder="0" allowfullscreen></iframe>
 

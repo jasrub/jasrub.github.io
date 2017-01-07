@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-
-{% for project in site.portfolio %}
+{% assign sorted = (site.portfolio | sort: 'date') | reverse %}
+{% for project in sorted %}
 {% if project.redirect %}
 <div class="project">
     <div class="thumbnail">
@@ -11,7 +11,7 @@ layout: default
         <img class="thumbnail" src="{{ project.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
-        {% endif %}    
+        {% endif %}
         <span>
             <p>{{ project.description }}</p>
         </span>
@@ -28,7 +28,7 @@ layout: default
         <img class="thumbnail" src="{{ project.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
-        {% endif %}    
+        {% endif %}
         <span>
             <p>{{ project.description }}</p>
         </span>

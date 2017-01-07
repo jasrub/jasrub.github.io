@@ -2,7 +2,8 @@
 layout: post
 title: Sonification of Popularity
 description: An Auditory Visualization
-img: /img/sonification_thumb.jpg 
+img: /img/sonification_thumb.jpg
+date: 2013-06-30
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UwaMb3CAu3I" frameborder="0" allowfullscreen></iframe>

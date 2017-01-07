@@ -3,6 +3,7 @@ layout: post
 title: Mood Light
 description: Light changing according to room atmosphere
 img: /img/mood_light/thumb.jpg
+date: 2013-02-10
 ---
 <img src="{{ site.baseurl }}/img/mood_light/mood_light2.gif" style="width:100%">
 <br/>

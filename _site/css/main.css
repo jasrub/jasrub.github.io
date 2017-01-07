@@ -566,6 +566,13 @@ how it works:
 `.menu-link` represents the responsive menu toggle that shows/hides on
 small screens.
 */
+.pure-menu-item {
+  list-style-type: none; }
+
+.side-bar-active {
+  color: #18A5B5;
+  background: rgba(24, 165, 181, 0.3); }
+
 .menu-link {
   position: fixed;
   display: block;
@@ -676,6 +683,9 @@ input[type=submit] {
   padding: 15px;
   text-decoration: none;
   transition: all 0.5s ease; }
+
+.date {
+  font-size: 0.6em; }
 
 /**
  * Syntax highlighting styles

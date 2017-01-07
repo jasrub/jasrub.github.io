@@ -1,15 +1,22 @@
 <div id="menu">
         <div class="pure-menu">
-
             <ul class="pure-menu-list">
-                {% for project in site.portfolio %}
-                <li class="pure-menu-item"><a href="{{ site.baseurl }}{{ project.url }}" class="pure-menu-link">
+                {% assign sorted = (site.portfolio | sort: 'date') | reverse %}
+                {% for project in sorted %}
+                {% if page.url == project.url %}
+                   <li class="pure-menu-item side-bar-active">
+                {% else %}
+                    <li class="pure-menu-item">
+                  {% endif %}
+                  <a href="{{ site.baseurl }}{{ project.url }}" class="pure-menu-link">
                 {% if project.list-name %}
                 	{{project.list-name}}</a></li>
                 {% else %}
                 	{{project.title}}</a></li>
                 {% endif %}
                 {% endfor %}
+
+
             </ul>
         </div>
 </div>

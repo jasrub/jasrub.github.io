@@ -1,0 +1,25 @@
+---
+layout: post
+title: Creative Machines
+description: Machine Learning Generated Emojis
+img: /img/emojis/emojis_thumb.png
+date: 2016-12-28
+---
+<div class="img_row">
+  <a href="{{ site.baseurl }}/img/emojis/emojis_thumb.png"><img class="col two" src="{{ site.baseurl }}/img/emojis/emojis_thumb.png" alt=""></a>
+  <a href="{{ site.baseurl }}/img/emojis/train.gif"><img class="col one" src="{{ site.baseurl }}/img/emojis/train.gif" alt=""></a>
+</div>
+  <br/>
+  <br/>
+
+Can computers e creative?
+<br/>
+This is a small experiment with generative models in deep learning.
+<br/>
+I ran a Generative Adversarial Network implementation in Google's Tensorflow, using the Twemoji dataset.
+<br/>
+Testing weather a computer can generate new emojis, after seeing a lot of them.
+<br/>
+These are baby steps, but I could recognize a Batmen and a Santa Claus in there. What do you find?
+<br/>
+(Click on the images to see the whole sample)
