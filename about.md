@@ -21,7 +21,7 @@ I hold a B.Sc in Computer Science from the Hebrew University of Jerusalem, with 
 I'm interested in exploring the ways we communicate with people and objects in our surrounding environment.
 <br>
 <br>
-<!-- <a target="_blank" href="/JasminRubinovitzCv.pdf" >My CV</a> -->
+<!-- <a target="_blank" href="/jasmin_rubinovitz_cv_2016.pdf" >My CV</a> -->
 </div>
 
 <br/>
