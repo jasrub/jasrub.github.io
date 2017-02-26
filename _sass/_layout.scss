@@ -3,15 +3,20 @@
  * Site header   **********************************************************
  */
 .site-header {
-border-bottom: 1px solid $grey-color-light;
-background-color: #fff;
-position:fixed;
-left:0px;
-top:0px;
-height:56px;
-width:100%;
-z-index: 50;
+  padding:1em;
+//border-bottom: 1px solid $grey-color-light;
+//background-color: #fff;
+//position:fixed;
+//left:0px;
+//top:0px;
+//height:56px;
+//width:100%;
+//z-index: 50;
 }
+
+.site-header.cover {
+position: absolute;
+top: 60vh;}
 
 .site-title {
 font-size: 20px;
@@ -34,32 +39,9 @@ text-decoration: none;
 color: $theme-color;
 }
 
-.site-nav {
-float: right;
-line-height: $nav-height;
-.page-link{
-line-height: $base-line-height;
-        // Gaps between nav items, but not on the first one
-&:not(:first-child) {
-margin-left: 10px;
-        }
-    }
-@media screen and (max-width:680px) {
-      .trigger a:nth-child(n+3) {display: none;}
-  }
-@include media-query($on-palm) {
-position: fixed;
-top: 0px;
-right: 10px;
-text-align: right;
-&:hover .trigger {
-display: block;
-padding-bottom: 5px;
-        }
+
 .page-link {
-display: line;
-        }
-    }
+  padding-right: 1em;
 }
 
 .header-bar{
@@ -118,7 +100,7 @@ color: $theme-color;
  * Page content   **********************************************************
  */
 .page-content {
-padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+padding: 1em 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
 .page-heading {
 font-size: 20px;
@@ -615,4 +597,24 @@ video {
   text-align: center;
   margin: auto;
   max-width: 100%;
+}
+
+#wrapper{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.content{
+  position: relative;
+  z-index: 100;
+}
+
+.background{
+  color: #999999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  width: 100%;
 }

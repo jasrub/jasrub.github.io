@@ -1,21 +1,8 @@
-<header class="site-header">
-  <!-- Magnific Popup core CSS file -->
-<link rel="stylesheet" href="{{ site.baseurl }}/magnific-popup/magnific-popup.css">
-
-  <div class="wrapper">
+<div {% if page.isHome %} class="wrapper site-header cover" {% else %} class="wrapper site-header"{% endif %}>
     <a class="header-title" href="{{ site.baseurl }}/">Jasmin Rubinovitz</a>
-    <nav class="site-nav">
-
-      <div class="trigger">
-
-        <a class="page-link" href="{{ site.baseurl }}/">Projects</a>
+    <div>
+        <a class="page-link" href="{{ '/portfolio/' | site.baseurl }}">Work</a>
         <a class="page-link" href="{{ '/about/' | prepend: site.baseurl }}">About</a>
-        <a class="page-link" href="{{ '/contact/' | prepend: site.baseurl }}">Contact</a>
-        <a class="page-link" target="_blank" href="{{ '/jasmin_rubinovitz_cv_2016.pdf' | prepend: site.baseurl }}">Resume</a>
-
-      </div>
-    </nav>
+    </div>
 
   </div>
-
-</header>

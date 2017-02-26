@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{{ site.title}} - {% if page.title %}{{ page.title }}{% else %}{{ 'Creative Technologist' }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
