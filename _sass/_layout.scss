@@ -605,3 +605,14 @@ margin: 0 auto;
 .date {
   font-size: 0.6em;
 }
+
+.video-container {
+  text-align: center;
+  overflow: hidden;
+}
+
+video {
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+}

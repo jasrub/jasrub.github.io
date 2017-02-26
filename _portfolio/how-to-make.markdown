@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How To Make (Almost) Anything
-description:
+description: Digital Fabrication Adventures
 img: /img/how_to/how_to_thumb.jpg
 list-name: HTMAA
 date: 2016-01-20
