@@ -231,20 +231,20 @@ width: 100%;
 height: 12em;
 }
 .thumbnail a span {
-display: none;
+display: block;
 position: absolute;
 top: 0;
 left: 0;
 bottom: 0;
 right: 0;
-background: rgba($theme-color,0.4);
+background: rgba($background-color,0.5);
 color: $grey-color-light;
 padding: 40px;
 text-align: center;
 }
-//.thumbnail a:hover span {
-//display: block;
-//}
+.thumbnail a:hover span {
+display: none;
+}
 
 @media only screen and (max-width : 480px) {
    /* Smartphone view: 1 tile */
