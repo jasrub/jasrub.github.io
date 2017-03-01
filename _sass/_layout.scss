@@ -414,13 +414,6 @@ appears on the left side of the page.
         background: transparent;
     }
 
-    /*
-    Add that light border to separate items into groups.
-    */
-    #menu .pure-menu ul,
-    #menu .pure-menu .menu-item-divided {
-
-    }
         /*
         Change color of the anchor links on hover/focus.
         */
@@ -434,14 +427,8 @@ appears on the left side of the page.
     */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
-        background: #1f8dd6;
+      color: rgba($theme-color, 1);
     }
-        /*
-        This styles a link within a selected menu item `<li>`.
-        */
-        #menu .pure-menu-selected a {
-            color: #fff;
-        }
 
     /*
     This styles the menu heading.
@@ -466,9 +453,11 @@ small screens.
 .pure-menu-item {
   list-style-type: none;
 }
+#menu .side-bar-active a {
+  color: $theme-color;
+}
 .side-bar-active {
   color: $theme-color;
-  background: rgba($theme-color,0.3);
 }
 .menu-link {
     position: fixed;
