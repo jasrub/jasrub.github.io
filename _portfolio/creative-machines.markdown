@@ -6,7 +6,7 @@ img: /img/creative_machines/space.jpg
 date: 2016-12-28
 ---
 <div class="img_row">
-  <a href="{{ site.baseurl }}/img/creative_machines/creative_machines_thumb.png"><img class="col two" src="{{ site.baseurl }}/img/creative_machines/emojis_thumb.png" alt=""></a>
+  <a href="{{ site.baseurl }}/img/creative_machines/emojis_thumb.png"><img class="col two" src="{{ site.baseurl }}/img/creative_machines/emojis_thumb.png" alt=""></a>
   <a href="{{ site.baseurl }}/img/creative_machines/train.gif"><img class="col one" src="{{ site.baseurl }}/img/creative_machines/train.gif" alt=""></a>
 </div>
 <div class="img_row">
