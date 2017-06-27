@@ -12,7 +12,7 @@ date: 2017-06-01
 	<a href="{{ site.baseurl }}/img/panorama/detail.jpg"><img class="col one" src="{{ site.baseurl }}/img/panorama/detail.jpg" alt=""></a>
 </div>
 
-<a href="http://panorama.um-dokku.meida.mit.edu">panorama.um-dokku.meida.mit.edu</a>
+<a href="http://panorama.um-dokku.media.mit.edu">panorama.um-dokku.media.mit.edu</a>
 
 In the era of information, we are free to access as many news stories as we want. However, today news is so abundant that people don’t have the time to read or watch all of it, nor the time to select what stories they want to know about. We trust editors and algorithms to decide for us, giving away our control and sometimes missing the big picture.
 For computers, news stories are usually not annotated or categorized, they come in as an unstructured text in natural language that for machines is hard to generalize.
@@ -24,4 +24,4 @@ By showing all the available information, from all U.S mainstream media sources,
 
 Panorama is a web interface, built with React.js
 
-Try it out at - <a href="http://panorama.um-dokku.meida.mit.edu">panorama.um-dokku.meida.mit.edu</a>
+Try it out at - <a href="http://panorama.um-dokku.media.mit.edu">panorama.um-dokku.media.mit.edu</a>
