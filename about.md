@@ -21,7 +21,7 @@ I hold a B.Sc in Computer Science from the Hebrew University of Jerusalem, with 
 I'm interested in exploring the ways we communicate with people and objects in our surrounding environment.
 
 
- <a class="page-link" target="_blank" href="{{ '/jasmin_rubinovitz_cv_2016.pdf' | prepend: site.baseurl }}">Resume</a>
+ <a class="page-link" target="_blank" href="{{ '/JasminRubinovitzCV_2017.pdf' | prepend: site.baseurl }}">Resume</a>
 </div>
 
 <br/>
