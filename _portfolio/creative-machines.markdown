@@ -21,7 +21,7 @@ Can computers be creative?
 <br/>
 This is a small experiment with generative models in deep learning.
 <br/>
-During a great residency at <a href="http://stochasticlabs.org/">Stochastic Labs,</a> I ran a Generative Adversarial Network implementation in Google's Tensorflow.
+During a great residency at <a href="http://stochasticlabs.org/"> Stochastic Labs</a>, I ran a Generative Adversarial Network implementation in Google's Tensorflow.
 <br/>
 I tried the Twemoji dataset, as well as a set of 1200 galaxy images from the web.
 <br/>
@@ -32,4 +32,4 @@ These are baby steps, but I could recognize a Batmen and a Santa Claus in the ge
 (Click on the images to see the whole sample)
 <br/>
 <br/>
-This was part of the development of <a href="https://github.com/artBoffin/GooeyBrain">GooeyBrain</a> - an open source GUI app for generating data, such as images, using Tensorflow.
+This was part of the development of <a href="https://github.com/artBoffin/GooeyBrain"> GooeyBrain </a> - an open source GUI app for generating data, such as images, using Tensorflow.
