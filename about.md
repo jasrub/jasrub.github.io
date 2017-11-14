@@ -27,12 +27,12 @@ I'm interested in exploring the ways we communicate with people and objects in o
 <br/>
 <hr/>
 <br/>
-<span class="contacticon center">
+<!-- <span class="contacticon center">
 	<a href="mailto:jasrub@gmail.com"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://github.com/jasrub" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://il.linkedin.com/pub/jasmin-rubinovitz/a5/a91/9b1" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 	<a href="https://www.facebook.com/jasmin.rubinovitz" target="_blank"><i class="fa fa-facebook-square"></i></a>
-</span>
+</span> -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
