@@ -1,7 +1,7 @@
 <div id="menu">
         <div class="pure-menu">
             <ul class="pure-menu-list">
-                {% assign sorted = (site.portfolio | sort: 'date') | reverse %}
+                {% assign sorted = site.portfolio | sort: 'date' | reverse %}
                 {% for project in sorted %}
                 {% if page.url == project.url %}
                    <li class="pure-menu-item side-bar-active">
