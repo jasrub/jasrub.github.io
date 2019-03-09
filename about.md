@@ -10,20 +10,21 @@ permalink: /about/
 Hello, my name is Jasmin Rubinovitz. I'm <span class="changing"></span>
 <br>
 <br>
-I'm a cross disciplined researcher, designer and engineer - currently a Research Assistant and a Graduate Student in the Viral Communications group at MIT Media Lab.
+I'm a cross disciplined researcher, designer and engineer. 
 <br>
-In the past I worked as a software engineer at Google.  
-<br>
-<br>
-I hold a B.Sc in Computer Science from the Hebrew University of Jerusalem, with a B.F.A in Ceramic Design from Bezalel Academy of Art and Design.  
+I love exploring the ways we communicate with people and objects in our surrounding environment.  My work integrates emerging technologies with innovative and experimental user interfaces to create meaningful experiences.
 <br>
 <br>
-I'm interested in exploring the ways we communicate with people and objects in our surrounding environment.
+I hold a Masters in Media Arts and Science from the MIT Media Lab, where I worked in the Viral
+Communications group.
+I have B.Sc in Computer Science from the Hebrew University of Jerusalem, combined with studies for a B.F.A in Ceramic Design from Bezalel Academy of Art and Design.  
+<br>
+In the past I worked as a software engineer at Google and as well as a Lead Creative Technologist at Fake Love, a New York Times Company, where I had the pleasure to work on unconventional immersive experiences for clients such as Nokia Bell Labs, Equinox, State Street Global Advisors, Google and more.
+<br> I also thought the wonderful students at the SVA MFACA program.
 
 
-<!--  <a class="page-link" target="_blank" href="{{ '/JasminRubinovitzCV_2017.pdf' | prepend: site.baseurl }}">Resume</a> -->
+<!--  <a class="page-link" target="_blank" href="{{ '/JasminRubinovitzCV_2018.pdf' | prepend: site.baseurl }}">Resume</a> -->
 </div>
-
 <br/>
 <hr/>
 <br/>
