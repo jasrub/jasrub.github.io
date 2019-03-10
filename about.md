@@ -19,7 +19,7 @@ I hold a Masters in Media Arts and Science from the MIT Media Lab, where I worke
 Communications group.
 I have B.Sc in Computer Science from the Hebrew University of Jerusalem, combined with studies for a B.F.A in Ceramic Design from Bezalel Academy of Art and Design.  
 <br>
-In the past I worked as a software engineer at Google and as well as a Lead Creative Technologist at Fake Love, a New York Times Company, where I had the pleasure to work on unconventional immersive experiences for clients such as Nokia Bell Labs, Equinox, State Street Global Advisors, Google and more.
+In the past I worked as a software engineer at Google and as a Lead Creative Technologist at Fake Love, a New York Times Company, where I had the pleasure to work on unconventional immersive experiences for clients such as Nokia Bell Labs, Equinox, State Street Global Advisors, Google and more.
 <br> I also thought the wonderful students at the SVA MFACA program.
 
 
